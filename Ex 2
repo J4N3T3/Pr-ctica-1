@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main() {
+	int i, num;
+	char star[] = { '*' };
+	printf("Digues un numero: ");
+	scanf_s("%d", &num);
+	for (i = 0; i <= num; i++) {
+		printf("%c\n", star[i]);
+	}
+}
