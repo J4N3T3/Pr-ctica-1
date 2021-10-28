@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 int main() {
-	int num, i, resultat;
-	while (1){
+	int num=0, i, resultat;
+	while (num<=0 || num > 100){
 		printf("Introdueix un numero: ");
 		scanf_s("%d", &num);
-		if (num > 0 && num <= 100){
+		if (num > 0 && num <= 100 ){
 			break;
 		}
 	}
